@@ -1,0 +1,142 @@
+body {
+    margin: 0; /* Remove default margin for body */
+    padding: 0; /* Remove default padding for body */
+}
+
+/* Navbar styling */
+#navbar {
+    background-color: #bd6464;
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    /* width: auto; */
+}
+
+#navbar li {
+    display: inline;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+#navbar a {
+    color: #13181d;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#navbar a:hover {
+    color: rgb(33, 161, 241);
+    background-color: rgb(176, 204, 204);
+    text-decoration: none;
+}
+
+/* Header styles */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resume h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+.resume h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #666;
+}
+
+.resume img {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    padding-left: 2px;
+    margin: 0;
+    border-style: dashed;
+}
+
+.resume h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.resume p {
+    color: rgba(179, 10, 10, 0.694);
+    text-justify: auto;
+}
+
+.resume form .buttons {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* Table styles */
+#skills {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#skills th, #skills td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Form styles */
+form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background-color: #444;
+}
+
+/* Additional styles */
+.resume {
+    max-width: 1000px;
+    margin: 0 auto;
+}
